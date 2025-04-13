@@ -136,6 +136,10 @@ body {
 	font-size: 24px;
 }
 
+.active-tag{
+	background-color: red;
+}
+
 .quote {
 	font-family: 'Spectral';
 	font-style: italic;
