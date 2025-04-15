@@ -105,6 +105,9 @@ body {
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+.nav-item:hover{
+	cursor: pointer;
+}
 .nav-pills .nav-link {
 	color: #000
 }
