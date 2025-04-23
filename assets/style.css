@@ -101,8 +101,8 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
+	color: #ffffff;
+	background-color: #726d39;
 	border-radius:0 ;
 }
 .nav-item:hover{
@@ -137,10 +137,6 @@ body {
 	align-items: center;
 	display: flex;
 	font-size: 24px;
-}
-
-.active-tag{
-	background-color: red;
 }
 
 .quote {
