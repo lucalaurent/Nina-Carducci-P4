@@ -3,16 +3,20 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title> Nina Carducci Photographe</title>
+	<title itemprop="name"> Nina Carducci Photographe</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<meta property="og:title" content="Nina Carducci Photographe">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://lucalaurent.github.io/Nina-Carducci-P4/">
+	<meta property="og:image" content="assets/images/nina-carducci-photographe.webp">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
-	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js" defer></script>
@@ -22,7 +26,7 @@
 <body>
 	<header>
 		<div class="top-header">
-			<h1 class="name">Nina Carducci</h1>
+			<h1 class="name" itemprop="name">Nina Carducci</h1>
 			<div class="nav">
 				<ul>
 					<li><a href="#about">À propos</a></li>
@@ -36,7 +40,7 @@
 		</div>
 	</header>
 	<section>
-		<div id="header">
+		<div itemtype="https://shema.org/workExemple" id="header">
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-indicators">
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -71,9 +75,9 @@
 		</div>
 	</section>
 	<section>
-		<div id="about">
+		<div itemscope itemtype="https://shema.org/person" itemprop="Photograph" id="about">
 			<div class="picture left">
-				<img src="./assets/images/nina-carducci-photographe.webp" alt="portrait de Nina Carducci Photographe">
+				<img itemprop="image" src="./assets/images/nina-carducci-photographe.webp" alt="portrait de Nina Carducci Photographe">
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h3>
