@@ -320,6 +320,9 @@ input[type="submit"] {
 		right: 0;
 		z-index: -1;
 	}
+	.contact-details{
+		color:lightgrey;
+	}
 }
 
 @media all and (max-width: 650px) {

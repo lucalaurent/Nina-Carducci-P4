@@ -3,25 +3,60 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title itemprop="name"> Nina Carducci Photographe</title>
+	<title itemprop="name">Nina Carducci Photographe</title>
+	<meta name="description" content="Nina Carducci photographe professionnelle pour vos mariages, entreprises, ou portraits.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Open Graph / Facebook -->
 	<meta property="og:title" content="Nina Carducci Photographe">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://lucalaurent.github.io/Nina-Carducci-P4/">
 	<meta property="og:image" content="assets/images/nina-carducci-photographe.webp">
+	<meta property="og:description" content="Nina Carducci photographe professionnelle pour vos mariages, entreprises, ou portraits.">
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Nina Carducci Photographe">
+	<meta name="twitter:description" content="Nina Carducci photographe professionnelle pour vos mariages, entreprises, ou portraits.">
+	<meta name="twitter:image" content="./assets/images/nina-carducci-photographe.webp">
+
+	<!-- Schema.org Structured Data for Local Business -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "LocalBusiness",
+	  "name": "Nina Carducci Photographe",
+	  "image": "https://lucalaurent.github.io/Nina-Carducci-P4/assets/images/nina-carducci-photographe.webp",
+	  "telephone": "+33 5 56 67 78 89",
+	  "address": {
+	    "@type": "PostalAddress",
+	    "streetAddress": "68 avenue Alsace-Lorraine",
+	    "addressLocality": "Bordeaux",
+	    "postalCode": "33200",
+	    "addressCountry": "FR"
+	  },
+	  "openingHours": "Mo-Sa 10:00-19:00",
+	  "url": "https://lucalaurent.github.io/Nina-Carducci-P4/",
+	  "description": "Photographe professionnelle à Bordeaux spécialisée dans les mariages, portraits et événements d'entreprise.",
+	  "priceRange": "$$",
+	  "sameAs": [
+	    "https://www.instagram.com/ninacarducci.photo/?hl=fr"
+	  ]
+	}
+	</script>
+
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
 </head>
+
 
 <body>
 	<header>
@@ -192,12 +227,17 @@
 			</figure>
 		</div>
 	</section>
+	
 	<section>
-		<div id="contact">
+		<div id="contact" itemscope itemtype="https://schema.org/LocalBusiness">
+			<meta itemprop="name" content="Nina Carducci Photographe" />
+			<meta itemprop="image" content="https://lucalaurent.github.io/Nina-Carducci-P4/assets/images/nina-carducci-photographe.webp" />
+			<meta itemprop="url" content="https://lucalaurent.github.io/Nina-Carducci-P4/" />
+	
 			<div class="container">
 				<div class="form-container">
 					<h3>Une question ? Une demande de devis ?</h3>
-					<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+					<p> N’hésitez pas à m’écrire ! Je vous répondrai en moins de 24 heures</p>
 					<form action="" method="post">
 						<label for="nom">Nom</label>
 						<input type="text" name="nom" id="nom">
@@ -214,6 +254,7 @@
 			</div>
 		</div>
 	</section>
+	
 	</main>
 </body>
 
