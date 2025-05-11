@@ -197,6 +197,9 @@ opacity:2 !important;
 	justify-content: space-between;
 	z-index: 1;
 }
+.price{
+	font-size: larger !important;
+}
 
 #contact {
 	margin: auto;
